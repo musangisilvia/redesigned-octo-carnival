@@ -106,6 +106,10 @@ a img {
 	border: 0;
 }
 
+.entry-content {
+	width: 100%;
+}
+
 .entry-content > *:not(:last-child) {
 	margin-bottom: 1rem;
 }
@@ -126,8 +130,60 @@ footer .credits {
 	color: #fe5d12;
 }
 
-p i.fa {
-	padding-right: 5px;
+/**
+* Project Tile
+*/
+
+.project-tile {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.card{
+	height: 200px;
+	width: 235px;
+	padding: 10px 25px;
+	background: #000;
+	border-radius: 20px;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 27px;
+	display: block;
+	text-align: center;
+	margin: 12px 0px;
+	color: #fe5d12;
+
+}
+h5{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.pra p{
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
+.card .button{
+	background-color: #fe5d12;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #fe5d12;
+	cursor: pointer;
 }
 
 /**
@@ -135,6 +191,10 @@ p i.fa {
  */
 .article-container {
 	padding: 2rem;
+}
+
+p i.fa {
+	padding-right: 5px;
 }
 
 /**
